@@ -129,7 +129,7 @@
             DeleteDebtor.TabIndex = 13;
             DeleteDebtor.Text = "Delete Debtor";
             DeleteDebtor.UseVisualStyleBackColor = true;
-            DeleteDebtor.Click += this.button1_Click;
+            DeleteDebtor.Click += Button1_Click;
             // 
             // DebtorTitle
             // 
@@ -137,10 +137,10 @@
             DebtorTitle.Font = new Font("Segoe UI", 16F);
             DebtorTitle.Location = new Point(452, 144);
             DebtorTitle.Name = "DebtorTitle";
-            DebtorTitle.Size = new Size(182, 45);
+            DebtorTitle.Size = new Size(133, 45);
             DebtorTitle.TabIndex = 12;
-            DebtorTitle.Text = "Reckonings";
-            DebtorTitle.Click += this.label2_Click;
+            DebtorTitle.Text = "Debtors";
+            DebtorTitle.Click += Label2_Click;
             // 
             // EditDebtor
             // 
@@ -150,7 +150,7 @@
             EditDebtor.TabIndex = 11;
             EditDebtor.Text = "Edit";
             EditDebtor.UseVisualStyleBackColor = true;
-            EditDebtor.Click += this.button2_Click;
+            EditDebtor.Click += Button2_Click;
             // 
             // DebtorList
             // 
@@ -160,7 +160,7 @@
             DebtorList.Name = "DebtorList";
             DebtorList.Size = new Size(315, 479);
             DebtorList.TabIndex = 10;
-            DebtorList.SelectedIndexChanged += this.listBox1_SelectedIndexChanged;
+            DebtorList.SelectedIndexChanged += ListBox1_SelectedIndexChanged;
             // 
             // NewDebtor
             // 
@@ -170,7 +170,7 @@
             NewDebtor.TabIndex = 9;
             NewDebtor.Text = "New Debtor";
             NewDebtor.UseVisualStyleBackColor = true;
-            NewDebtor.Click += button3_Click;
+            NewDebtor.Click += Button3_Click;
             // 
             // Form1
             // 
@@ -190,6 +190,7 @@
             Controls.Add(Title);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

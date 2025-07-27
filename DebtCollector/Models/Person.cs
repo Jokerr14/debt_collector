@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DebtCollector
+namespace DebtCollector.Models
 {
     internal class Person
     {
-        String Name;
-        String Surname;
-        String Nick;
+        string Name;
+        string Surname;
+        string Nick;
     }
 }

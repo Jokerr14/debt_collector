@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DebtCollector")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4455cc7f489155ea1ff4e31fdb287d5c228da23e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b96468c06b2ee75452b78ce4fcdb2639b9f5e0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DebtCollector")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DebtCollector")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
