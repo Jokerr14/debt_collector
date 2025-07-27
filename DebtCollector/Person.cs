@@ -10,6 +10,6 @@ namespace DebtCollector
     {
         String Name;
         String Surname;
-        String nick;
+        String Nick;
     }
 }
